@@ -13,6 +13,10 @@ final class HomeViewModel: ObservableObject {
     @Published var distances: [String] = ["50", "100", "200", "400", "800", "1500"]
     @Published var currentDist = "All"
     @Published var distForAdd = ""
+    
+    @Published var days: [String] = ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri"]
+    @Published var currentDay = ""
+    @Published var dayForAdd = ""
 
     @Published var isAdd: Bool = false
     @Published var isDetail: Bool = false
